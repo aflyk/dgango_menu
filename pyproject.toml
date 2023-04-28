@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-task-mmenu-django"
+version = "0.1.0"
+description = ""
+authors = ["Alexey <aa.reukov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_task_mmenu_django"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^4.2"
+django-mptt = "^0.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
